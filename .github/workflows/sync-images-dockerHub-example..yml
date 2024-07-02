@@ -33,5 +33,5 @@ jobs:
         
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
-        skopeo copy docker://ghcr.io/cnk3x/xunlei:latest docker://registry.cn-shenzhen.aliyuncs.com/cnk3x/xunlei:latest
+        skopeo copy docker://ghcr.io/cnk3x/xunlei:latest docker://registry.cn-hangzhou.aliyuncs.com/xanny/xunlei:latest
  
